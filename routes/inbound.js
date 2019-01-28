@@ -11,8 +11,8 @@ var inbound = {
 
     var Email     = sendgrid.Email;
     var email     = new Email({
-      to:       to,
-      from:     "hi@sendgrid-parse-api-example.com",
+      to:       "colinvsharpe@gmail.com",
+      from:     "colin@reply.colinsharpe.com",
       subject:  "[sendgrid-parse-api-example] Inbound Payload",
       text:     "A payload was just delivered via SendGrid's Inbound Parse API. It should be attached."
     });
